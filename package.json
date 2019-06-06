@@ -1,5 +1,5 @@
 {
-  "name": "server-side-events",
+  "name": "server-sent-events",
   "version": "1.0.0",
   "description": "",
   "main": "index.html",
