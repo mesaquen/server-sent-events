@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "test": "\u001b[3~",
-    "start": "node server.js"
+    "start": "http-server -c-1 -o",
+    "start:server": "node server.js"
   },
   "author": "Mesaque Francisco",
   "license": "MIT",
