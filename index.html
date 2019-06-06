@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <tile>SSE test</title>
+</head>
+<body>
+  <div id="display"></div>
+  <script type="text/javascript">
+    function update(e) {
+    console.log(e);
+        const display = document.querySelector('#display');
+        display.innerHTML += `${e.data} <br />`;
+    }
+    
+    let source = new EventSource('http://localhost:8000/events');
+    source.onmessage = update;
+  </script>
+</body>
+</html>

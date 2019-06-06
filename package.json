@@ -1,0 +1,15 @@
+{
+  "name": "server-side-events",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "\u001b[3~",
+    "start": "node server.js"
+  },
+  "author": "Mesaque Francisco",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}
