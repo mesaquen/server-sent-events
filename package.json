@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "start": "http-server -c-1 -o",
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "start:server": "node server.js"
   },
   "author": "Mesaque Francisco",
   "license": "MIT",
   "devDependencies": {
-    "http-server": "^0.11.1"
+    "parcel-bundler": "^1.12.4"
   }
 }
